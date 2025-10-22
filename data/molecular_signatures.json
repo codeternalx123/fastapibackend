@@ -1,0 +1,67 @@
+{
+    "compounds": {
+        "glucose": {
+            "formula": "C6H12O6",
+            "molecular_weight": 180.156,
+            "spectral_signature": {
+                "infrared": [3.31, 6.27, 8.95],
+                "raman": [1126, 1340, 2901]
+            },
+            "cancer_relation": {
+                "glycolysis": "primary_energy_source",
+                "impact_score": 0.75
+            }
+        },
+        "beta_carotene": {
+            "formula": "C40H56",
+            "molecular_weight": 536.873,
+            "spectral_signature": {
+                "infrared": [5.13, 6.98, 9.45],
+                "raman": [1155, 1520, 2670]
+            },
+            "cancer_relation": {
+                "antioxidant": "protective",
+                "impact_score": -0.6
+            }
+        },
+        "quercetin": {
+            "formula": "C15H10O7",
+            "molecular_weight": 302.236,
+            "spectral_signature": {
+                "infrared": [4.21, 7.15, 8.89],
+                "raman": [1318, 1602, 3072]
+            },
+            "cancer_relation": {
+                "apoptosis": "promotes",
+                "impact_score": -0.8
+            }
+        },
+        "lycopene": {
+            "formula": "C40H56",
+            "molecular_weight": 536.873,
+            "spectral_signature": {
+                "infrared": [4.89, 6.73, 9.12],
+                "raman": [1159, 1525, 2895]
+            },
+            "cancer_relation": {
+                "antioxidant": "protective",
+                "anti_inflammatory": "strong",
+                "impact_score": -0.7
+            }
+        }
+    },
+    "spectral_ranges": {
+        "infrared": {
+            "min": 2.5,
+            "max": 15.0,
+            "units": "micrometers"
+        },
+        "raman": {
+            "min": 500,
+            "max": 3500,
+            "units": "cm^-1"
+        }
+    },
+    "version": "1.0.0",
+    "last_updated": "2025-10-13"
+}

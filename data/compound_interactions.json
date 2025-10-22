@@ -1,0 +1,57 @@
+{
+    "interactions": {
+        "glucose_quercetin": {
+            "synergy_score": 0.3,
+            "mechanism": "Enhanced cellular uptake",
+            "notes": "Quercetin may improve glucose metabolism"
+        },
+        "beta_carotene_lycopene": {
+            "synergy_score": 0.8,
+            "mechanism": "Complementary antioxidant effects",
+            "notes": "Strong synergistic protection against oxidative stress"
+        },
+        "quercetin_lycopene": {
+            "synergy_score": 0.6,
+            "mechanism": "Combined anti-inflammatory action",
+            "notes": "Enhanced tumor suppression potential"
+        }
+    },
+    "quantum_effects": {
+        "entanglement_pairs": [
+            {
+                "compounds": ["beta_carotene", "lycopene"],
+                "coherence_time": 150,
+                "coupling_strength": 0.85
+            },
+            {
+                "compounds": ["quercetin", "glucose"],
+                "coherence_time": 120,
+                "coupling_strength": 0.65
+            }
+        ],
+        "decoherence_rates": {
+            "thermal": 0.01,
+            "environmental": 0.005
+        }
+    },
+    "treatment_protocols": {
+        "standard": {
+            "min_synergy_threshold": 0.4,
+            "max_compounds": 4,
+            "timing_constraints": {
+                "min_interval": 2,
+                "max_duration": 48
+            }
+        },
+        "aggressive": {
+            "min_synergy_threshold": 0.6,
+            "max_compounds": 6,
+            "timing_constraints": {
+                "min_interval": 1,
+                "max_duration": 72
+            }
+        }
+    },
+    "version": "1.0.0",
+    "last_updated": "2025-10-13"
+}
